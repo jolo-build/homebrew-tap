@@ -27,4 +27,4 @@ brew install --cask jolo
 ## Notes
 
 - The desktop app is currently ad-hoc signed and not Apple-notarized; macOS may ask you to confirm opening it on first launch.
-- Report issues in the [main repository](https://github.com/jolo-build/jolo/issues). This tap's formula and cask are updated automatically by Jolo's release workflow.
+- Report issues in the [main repository](https://github.com/jolo-build/jolo/issues). This tap's update workflow checks the latest stable Jolo release every 30 minutes and can also be run manually from Actions. GitHub may delay scheduled runs. It uses the built-in repository token; no personal token is required.
