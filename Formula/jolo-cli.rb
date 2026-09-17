@@ -2,28 +2,28 @@
 class JoloCli < Formula
   desc "Terminal CLI for working with coding agents"
   homepage "https://jolo.build"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/jolo-build/jolo/releases/download/v#{version}/jolo-cli-darwin-arm64.tar.gz"
-      sha256 "e98c10dbf3b01f3ba41b4ea8387c08a94dc4db21371c4004f0e953ee60db67e8"
+      sha256 "588b6e628f14d4ddb6e936fc9f7d31cec571864edce5e887fb58a8eb746bc8ca"
     end
     on_intel do
       url "https://github.com/jolo-build/jolo/releases/download/v#{version}/jolo-cli-darwin-x64.tar.gz"
-      sha256 "4e737ba603825271e7e6758c41af37bbf05d31ebedbeb8ccc88b40dd2d50f1c9"
+      sha256 "78b1595fe72f6f743dd4c67acc9b7160a6e77c7d387415b1c629189124dcc380"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/jolo-build/jolo/releases/download/v#{version}/jolo-cli-linux-arm64.tar.gz"
-      sha256 "6e056010de9faf3f86051c5233c8bb43470f95f331b8ddc9456de42196db40b3"
+      sha256 "f40ca363fa45ea1b79fd797c361bc6d66da079834fe31125b9ba766f09671a1c"
     end
     on_intel do
       url "https://github.com/jolo-build/jolo/releases/download/v#{version}/jolo-cli-linux-x64.tar.gz"
-      sha256 "6dcd71236de7658f090d9e6abb15c36e73d8888a305ac6f1f90ba195acd12281"
+      sha256 "cb316080507707f083f8798bd1f46fcf97d96a50ec1a6204b075e4eb9b1fc461"
     end
   end
 
